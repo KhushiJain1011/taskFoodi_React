@@ -14,12 +14,12 @@ const PopularCategories = () => {
     ];
 
     return (
-        <section className="py-10 w-4/5 items-center mx-auto ">
-            <h3 className="text-red-500 font-bold uppercase text-xl mb-8 mt-6 text-center">Customer Favorites</h3>
+        <section className="py-10 w-11/12 md:w-4/5 items-center mx-auto ">
+            <h3 className="text-red-500 font-bold uppercase text-lg md:text-xl mb-4 md:mb-8 mt-6 text-center">Customer Favorites</h3>
 
-            <h1 className='font-bold text-4xl text-center pb-8'>Popular Categories</h1>
+            <h1 className='font-bold text-3xl md:text-4xl text-center md:pb-8'>Popular Categories</h1>
             <div className="container mx-auto px-4">
-                <div className="flex flex-wrap justify-center gap-16 ">
+                <div className="flex flex-wrap justify-center gap-8 md:gap-12 lg:gap-4 ">
                     {categories.map((category, index) => (
                         <CategoryCard
                             key={index}
