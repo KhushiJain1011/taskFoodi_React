@@ -46,32 +46,32 @@ const HeroSection = () => {
                     />
                 </div>
 
-                <div className="absolute -bottom-16 lg:-bottom-12 left-2 lg:left-0 flex flex-col lg:flex-row space-y-4 lg:space-y-0 lg:space-x-4">
-                    <div className="flex items-center bg-white shadow-lg rounded-xl p-2 space-x-2 w-[160px] sm:w-[210px] h-[85px] sm:h-[95px]">
+                <div className="absolute -bottom-16 lg:-bottom-12 left-2 lg:left-0 flex items-center md:flex-col lg:flex-row md:space-y-4 lg:space-y-0 space-x-4 md:space-x-0 lg:space-x-4">
+                    <div className="flex items-center bg-white shadow-lg rounded-xl p-2 space-x-2 w-[140px] sm:w-[210px] h-[76px] sm:h-[95px]">
                         <img
                             src={spicyNoodles}
                             alt="Spicy Noodles"
-                            className="w-[70px] h-[70px] sm:w-[80px] sm:h-[80px] rounded-full object-cover"
+                            className="w-[65px] h-[65px] sm:w-[80px] sm:h-[80px] rounded-full object-cover"
                         />
                         <div>
                             <p className="
-                            font-semibold text-gray-700">Spicy Noodles</p>
+                            font-semibold text-gray-700 text-xs sm:text-sm">Spicy Noodles</p>
                             <img src={threeStar} alt="" />
-                            <p className="font-semibold text-gray-500"><span className='text-red-600'>$</span>18.00</p>
+                            <p className="font-semibold text-xs sm:text-sm text-gray-500"><span className='text-red-600'>$</span>18.00</p>
                         </div>
                     </div>
 
-                    <div className="flex items-center bg-white shadow-lg rounded-xl p-2 space-x-2 w-[160px] sm:w-[210px] h-[85px] sm:h-[95px]">
+                    <div className="flex items-center bg-white shadow-lg rounded-xl p-2 space-x-2 w-[140px] sm:w-[210px] h-[76px] sm:h-[95px]">
                         <img
                             src={vegetarianSalad}
                             alt="Vegetarian Salad"
-                            className="w-[70px] h-[70px] sm:w-[80px] sm:h-[80px]rounded-full object-cover"
+                            className="w-[65px] h-[65px] sm:w-[80px] sm:h-[80px]rounded-full object-cover"
                         />
                         <div>
-                            <p className="font-semibold text-gray-700">Vegetarian Salad</p>
+                            <p className="font-semibold text-xs sm:text-sm text-gray-700">Vegetarian Salad</p>
                             <img src={threeStar} alt="" />
                             <p className="
-                            font-semibold  text-gray-500"><span className='text-red-600'>$</span>23.00</p>
+                            font-semibold  text-gray-500 text-xs sm:text-sm"><span className='text-red-600'>$</span>23.00</p>
                         </div>
                     </div>
                 </div>
